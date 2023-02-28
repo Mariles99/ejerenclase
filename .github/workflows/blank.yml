@@ -57,3 +57,6 @@ jobs:
         run: |
           aws s3api list-buckets
       
+          aws s3 cp funcion.py s3://bucketejer123/funciono.py
+      
+      
